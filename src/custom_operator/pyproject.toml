@@ -1,0 +1,15 @@
+[project]
+name = "custom-operator"
+version = "0.1.0"
+description = "Custom C++ Operator"
+readme = "README.md"
+authors = []
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+custom-operator = "custom_operator:main"
+
+[build-system]
+requires = ["setuptools>=61", "torch"]
+build-backend = "setuptools.build_meta"
